@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AE80A097-B51D-4190-9A00-DA85566EF6D8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>decoration</RootNamespace>
+    <AssemblyName>decoration</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\company.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\menu.txt" />
+    <Content Include="publicweb\complaint.aspx" />
+    <Content Include="css\Style.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="errorweb\FileNotFound.htm" />
+    <Content Include="errorweb\GenericErrorPage.htm" />
+    <Content Include="errorweb\NoAccess.htm" />
+    <Content Include="image\dongnanya.jpg" />
+    <Content Include="image\fastforward.gif" />
+    <Content Include="image\foot.gif" />
+    <Content Include="image\gudian.gif" />
+    <Content Include="image\lcpic.gif" />
+    <Content Include="image\logo.gif" />
+    <Content Include="image\meishi.jpg" />
+    <Content Include="image\pic_top.gif" />
+    <Content Include="image\topbg.gif" />
+    <Content Include="image\wdzi_1.gif" />
+    <Content Include="image\wdzi_10.gif" />
+    <Content Include="image\wdzi_11.gif" />
+    <Content Include="image\wdzi_12.gif" />
+    <Content Include="image\wdzi_13.gif" />
+    <Content Include="image\wdzi_14.gif" />
+    <Content Include="image\wdzi_2.gif" />
+    <Content Include="image\wdzi_3.gif" />
+    <Content Include="image\wdzi_4.gif" />
+    <Content Include="image\wdzi_5.gif" />
+    <Content Include="image\wdzi_6.gif" />
+    <Content Include="image\wdzi_7.gif" />
+    <Content Include="image\wdzi_8.gif" />
+    <Content Include="image\wdzi_9.gif" />
+    <Content Include="image\xiandai.jpg" />
+    <Content Include="image\xinzhongshi.jpg" />
+    <Content Include="Login.aspx" />
+    <Content Include="publicweb\message.aspx" />
+    <Content Include="publicweb\MyDecoration.aspx" />
+    <Content Include="publicweb\activity.aspx" />
+    <Content Include="publicweb\createmenu.aspx" />
+    <Content Include="publicweb\decorationManual.aspx" />
+    <Content Include="publicweb\DesignCase.aspx" />
+    <Content Include="publicweb\designcase\xingudian.aspx" />
+    <Content Include="publicweb\designcase\xingudianimage\bigpic1.jpg" />
+    <Content Include="publicweb\designcase\xingudianimage\bigpic2.jpg" />
+    <Content Include="publicweb\designcase\xingudianimage\bigpic3.jpg" />
+    <Content Include="publicweb\designcase\xingudianimage\bigpic4.jpg" />
+    <Content Include="publicweb\designcase\xingudianimage\bigpic5.jpg" />
+    <Content Include="publicweb\designcase\xingudianimage\bigpic7.jpg" />
+    <Content Include="publicweb\designcase\xingudianimage\sp1.jpg" />
+    <Content Include="publicweb\designcase\xingudianimage\sp2.jpg" />
+    <Content Include="publicweb\designcase\xingudianimage\sp3.jpg" />
+    <Content Include="publicweb\designcase\xingudianimage\sp4.jpg" />
+    <Content Include="publicweb\designcase\xingudianimage\sp5.jpg" />
+    <Content Include="publicweb\designcase\xingudianimage\sp6.jpg" />
+    <Content Include="publicweb\designConcept.aspx" />
+    <Content Include="publicweb\designer.aspx" />
+    <Content Include="publicweb\designerDetail.aspx" />
+    <Content Include="publicweb\designerimage\10192778c5628b-1116154cen.jpg" />
+    <Content Include="publicweb\designerimage\14290587e83af7-d116154cen.jpg" />
+    <Content Include="publicweb\designerimage\1627125d1692ff-c104140cen.jpg" />
+    <Content Include="publicweb\designerimage\952536a0aadb0-d116154cen.jpg" />
+    <Content Include="publicweb\intruduction.aspx" />
+    <Content Include="publicweb\m1.aspx" />
+    <Content Include="publicweb\myProcessDetail.aspx" />
+    <Content Include="publicweb\newsimage\activity.jpg" />
+    <Content Include="publicweb\process.aspx" />
+    <Content Include="publicweb\Register.aspx" />
+    <Content Include="publicweb\web.aspx" />
+    <Content Include="publicweb\receiveMessage.aspx" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="publicweb\complaint.aspx.cs">
+      <DependentUpon>complaint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicweb\complaint.aspx.designer.cs">
+      <DependentUpon>complaint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.Master.cs">
+      <DependentUpon>Global.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.Master.designer.cs">
+      <DependentUpon>Global.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicweb\message.aspx.cs">
+      <DependentUpon>message.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicweb\message.aspx.designer.cs">
+      <DependentUpon>message.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicweb\MyDecoration.aspx.cs">
+      <DependentUpon>MyDecoration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicweb\MyDecoration.aspx.designer.cs">
+      <DependentUpon>MyDecoration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="publicweb\activity.aspx.cs">
+      <DependentUpon>activity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicweb\activity.aspx.designer.cs">
+      <DependentUpon>activity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicweb\createmenu.aspx.cs">
+      <DependentUpon>createmenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicweb\createmenu.aspx.designer.cs">
+      <DependentUpon>createmenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicweb\decorationManual.aspx.cs">
+      <DependentUpon>decorationManual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicweb\decorationManual.aspx.designer.cs">
+      <DependentUpon>decorationManual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicweb\DesignCase.aspx.cs">
+      <DependentUpon>DesignCase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicweb\DesignCase.aspx.designer.cs">
+      <DependentUpon>DesignCase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicweb\designcase\xingudian.aspx.cs">
+      <DependentUpon>xingudian.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicweb\designcase\xingudian.aspx.designer.cs">
+      <DependentUpon>xingudian.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicweb\designConcept.aspx.cs">
+      <DependentUpon>designConcept.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicweb\designConcept.aspx.designer.cs">
+      <DependentUpon>designConcept.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicweb\designer.aspx.cs">
+      <DependentUpon>designer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicweb\designer.aspx.designer.cs">
+      <DependentUpon>designer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicweb\designerDetail.aspx.cs">
+      <DependentUpon>designerDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicweb\designerDetail.aspx.designer.cs">
+      <DependentUpon>designerDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicweb\intruduction.aspx.cs">
+      <DependentUpon>intruduction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicweb\intruduction.aspx.designer.cs">
+      <DependentUpon>intruduction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicweb\m1.aspx.cs">
+      <DependentUpon>m1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicweb\m1.aspx.designer.cs">
+      <DependentUpon>m1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicweb\myProcessDetail.aspx.cs">
+      <DependentUpon>myProcessDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicweb\myProcessDetail.aspx.designer.cs">
+      <DependentUpon>myProcessDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicweb\process.aspx.cs">
+      <DependentUpon>process.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicweb\process.aspx.designer.cs">
+      <DependentUpon>process.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicweb\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicweb\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicweb\web.aspx.cs">
+      <DependentUpon>web.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicweb\web.aspx.designer.cs">
+      <DependentUpon>web.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicweb\receiveMessage.aspx.cs">
+      <DependentUpon>receiveMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicweb\receiveMessage.aspx.designer.cs">
+      <DependentUpon>receiveMessage.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="adminweb\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dal\Dal.csproj">
+      <Project>{5CD397B2-4A35-437E-9550-6E34DF30FE59}</Project>
+      <Name>Dal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{9150792B-6F62-4E25-B1C1-2078A512C1AE}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WX\WX.csproj">
+      <Project>{35E52277-A96E-4880-B175-AB210D068A7F}</Project>
+      <Name>WX</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\publishweb.pubxml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>11349</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

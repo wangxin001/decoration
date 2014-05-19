@@ -1,0 +1,4 @@
+I:\decoration\Model\bin\Debug\Model.dll
+I:\decoration\Model\bin\Debug\Model.pdb
+I:\decoration\Model\obj\Debug\Model.dll
+I:\decoration\Model\obj\Debug\Model.pdb

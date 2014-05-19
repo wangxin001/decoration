@@ -1,0 +1,10 @@
+I:\decoration\WX\bin\Debug\WX.dll
+I:\decoration\WX\bin\Debug\WX.pdb
+I:\decoration\WX\obj\Debug\WX.dll
+I:\decoration\WX\obj\Debug\WX.pdb
+I:\decoration\WX\bin\Debug\LitJson.dll
+I:\decoration\WX\bin\Debug\Dal.dll
+I:\decoration\WX\bin\Debug\Model.dll
+I:\decoration\WX\bin\Debug\Dal.pdb
+I:\decoration\WX\bin\Debug\Model.pdb
+I:\decoration\WX\obj\Debug\WX.csprojResolveAssemblyReference.cache

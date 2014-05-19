@@ -1,0 +1,13 @@
+I:\decoration\decoration\bin\decoration.dll.config
+I:\decoration\decoration\bin\decoration.dll
+I:\decoration\decoration\bin\decoration.pdb
+I:\decoration\decoration\bin\Dal.dll
+I:\decoration\decoration\bin\Model.dll
+I:\decoration\decoration\bin\WX.dll
+I:\decoration\decoration\bin\Dal.pdb
+I:\decoration\decoration\bin\Model.pdb
+I:\decoration\decoration\bin\WX.pdb
+I:\decoration\decoration\obj\Release\decoration.csprojResolveAssemblyReference.cache
+I:\decoration\decoration\obj\Release\decoration.dll
+I:\decoration\decoration\obj\Release\decoration.pdb
+I:\decoration\decoration\bin\LitJson.dll

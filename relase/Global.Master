@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Global.master.cs" Inherits="decoration.Global" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>业之峰装饰集团</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <link href="css/Style.css" type="text/css"  />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <style type="text/css">
+       
+        .td
+        {
+            width: 33%;
+        }
+        .style1
+        {
+            height: 10px;
+        }
+    </style>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+     <table style="width:100%;">
+                <tr>
+                    <td class="HideBar" >
+                        <table style="width:100%;">
+                            <tr>
+                                <td class="td" rowspan="4">
+                        <img runat="server" alt="业之峰装饰集团" src="image/logo.gif" /></td>
+                                <td class="td">
+                                    &nbsp;</td>
+                                <td class="td">
+                                    &nbsp;</td>
+                            </tr>
+                            
+                           
+                            <tr >
+                                <td  class="style1" colspan="2">
+                                
+                                 </td>
+                            </tr>
+                            
+                           
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <div ></div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+           
+        
+        </asp:ContentPlaceHolder>
+        <p></p>
+        <div style="color:#FF4500; text-align:center; font-size:x-small; width:100%">
+       
+        全国客服热线： <a style=" text-decoration:none;" href="wtai://wp/mc;400-818-2588"><font color="#FF4500">400-818-2588</font></a>   全国加盟热线： <a style="text-decoration:none;" href="wtai://wp/mc;400-818-9993"><font color="#FF4500">400-818-9993</font></a>
+            <a href="javascript:scroll(0,0)"><img style="border:0;" alt="返回顶部" src="/image/pic_top.gif" /></a></div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,7 @@
+I:\decoration\Dal\bin\Debug\Dal.dll
+I:\decoration\Dal\bin\Debug\Dal.pdb
+I:\decoration\Dal\bin\Debug\Model.dll
+I:\decoration\Dal\bin\Debug\Model.pdb
+I:\decoration\Dal\obj\Debug\Dal.dll
+I:\decoration\Dal\obj\Debug\Dal.pdb
+I:\decoration\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache

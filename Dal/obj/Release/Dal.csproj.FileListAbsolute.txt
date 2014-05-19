@@ -1,0 +1,7 @@
+I:\decoration\Dal\bin\Release\Dal.dll
+I:\decoration\Dal\bin\Release\Dal.pdb
+I:\decoration\Dal\bin\Release\Model.dll
+I:\decoration\Dal\bin\Release\Model.pdb
+I:\decoration\Dal\obj\Release\Dal.csprojResolveAssemblyReference.cache
+I:\decoration\Dal\obj\Release\Dal.dll
+I:\decoration\Dal\obj\Release\Dal.pdb

@@ -1,0 +1,10 @@
+I:\decoration\WX\bin\Release\WX.dll
+I:\decoration\WX\bin\Release\WX.pdb
+I:\decoration\WX\obj\Release\WX.dll
+I:\decoration\WX\obj\Release\WX.pdb
+I:\decoration\WX\bin\Release\LitJson.dll
+I:\decoration\WX\obj\Release\WX.csprojResolveAssemblyReference.cache
+I:\decoration\WX\bin\Release\Dal.dll
+I:\decoration\WX\bin\Release\Model.dll
+I:\decoration\WX\bin\Release\Dal.pdb
+I:\decoration\WX\bin\Release\Model.pdb

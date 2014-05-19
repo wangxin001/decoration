@@ -1,0 +1,6 @@
+﻿body 
+{
+    font: normal 100% Helvetica, Arial, sans-serif;
+    font-size:12px;
+}
+.HideBar {     height:56px;     width:5px;     cursor:hand;     background-image: url(../image/foot.gif);}   

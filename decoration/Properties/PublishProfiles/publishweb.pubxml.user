@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>I:\decoration\relase</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/company.xml">
+      <publishTime>03/09/2014 11:09:32</publishTime>
+    </File>
+    <File Include="App_Data/menu.txt">
+      <publishTime>04/28/2014 09:55:36</publishTime>
+    </File>
+    <File Include="bin/Dal.dll">
+      <publishTime>04/25/2014 17:06:20</publishTime>
+    </File>
+    <File Include="bin/decoration.dll">
+      <publishTime>04/28/2014 16:08:51</publishTime>
+    </File>
+    <File Include="bin/LitJson.dll">
+      <publishTime>02/19/2014 13:44:12</publishTime>
+    </File>
+    <File Include="bin/Model.dll">
+      <publishTime>04/25/2014 16:29:10</publishTime>
+    </File>
+    <File Include="bin/WX.dll">
+      <publishTime>04/28/2014 16:08:49</publishTime>
+    </File>
+    <File Include="css/Style.css">
+      <publishTime>03/07/2014 14:59:26</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>03/06/2014 14:38:51</publishTime>
+    </File>
+    <File Include="errorweb/FileNotFound.htm">
+      <publishTime>03/06/2014 14:58:45</publishTime>
+    </File>
+    <File Include="errorweb/GenericErrorPage.htm">
+      <publishTime>03/06/2014 14:58:15</publishTime>
+    </File>
+    <File Include="errorweb/NoAccess.htm">
+      <publishTime>03/06/2014 14:58:27</publishTime>
+    </File>
+    <File Include="Global.Master">
+      <publishTime>03/09/2014 09:53:51</publishTime>
+    </File>
+    <File Include="image/dongnanya.jpg">
+      <publishTime>03/07/2014 15:08:49</publishTime>
+    </File>
+    <File Include="image/fastforward.gif">
+      <publishTime>03/07/2014 10:05:13</publishTime>
+    </File>
+    <File Include="image/foot.gif">
+      <publishTime>03/07/2014 09:40:16</publishTime>
+    </File>
+    <File Include="image/gudian.gif">
+      <publishTime>03/07/2014 15:08:28</publishTime>
+    </File>
+    <File Include="image/lcpic.gif">
+      <publishTime>03/07/2014 17:25:02</publishTime>
+    </File>
+    <File Include="image/logo.gif">
+      <publishTime>03/06/2014 15:04:39</publishTime>
+    </File>
+    <File Include="image/meishi.jpg">
+      <publishTime>03/07/2014 15:08:58</publishTime>
+    </File>
+    <File Include="image/pic_top.gif">
+      <publishTime>03/07/2014 09:38:23</publishTime>
+    </File>
+    <File Include="image/topbg.gif">
+      <publishTime>03/07/2014 09:54:00</publishTime>
+    </File>
+    <File Include="image/wdzi_1.gif">
+      <publishTime>03/07/2014 17:35:32</publishTime>
+    </File>
+    <File Include="image/wdzi_10.gif">
+      <publishTime>03/07/2014 17:35:32</publishTime>
+    </File>
+    <File Include="image/wdzi_11.gif">
+      <publishTime>03/07/2014 17:35:32</publishTime>
+    </File>
+    <File Include="image/wdzi_12.gif">
+      <publishTime>03/07/2014 17:35:32</publishTime>
+    </File>
+    <File Include="image/wdzi_13.gif">
+      <publishTime>03/07/2014 17:35:32</publishTime>
+    </File>
+    <File Include="image/wdzi_14.gif">
+      <publishTime>03/07/2014 17:35:32</publishTime>
+    </File>
+    <File Include="image/wdzi_2.gif">
+      <publishTime>03/07/2014 17:35:32</publishTime>
+    </File>
+    <File Include="image/wdzi_3.gif">
+      <publishTime>03/07/2014 17:35:32</publishTime>
+    </File>
+    <File Include="image/wdzi_4.gif">
+      <publishTime>03/07/2014 17:35:32</publishTime>
+    </File>
+    <File Include="image/wdzi_5.gif">
+      <publishTime>03/07/2014 17:35:32</publishTime>
+    </File>
+    <File Include="image/wdzi_6.gif">
+      <publishTime>03/07/2014 17:35:32</publishTime>
+    </File>
+    <File Include="image/wdzi_7.gif">
+      <publishTime>03/07/2014 17:35:32</publishTime>
+    </File>
+    <File Include="image/wdzi_8.gif">
+      <publishTime>03/07/2014 17:35:32</publishTime>
+    </File>
+    <File Include="image/wdzi_9.gif">
+      <publishTime>03/07/2014 17:35:32</publishTime>
+    </File>
+    <File Include="image/xiandai.jpg">
+      <publishTime>03/07/2014 15:09:06</publishTime>
+    </File>
+    <File Include="image/xinzhongshi.jpg">
+      <publishTime>03/07/2014 15:08:39</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>03/07/2014 12:55:17</publishTime>
+    </File>
+    <File Include="MyDecoration.aspx">
+      <publishTime>03/11/2014 09:53:50</publishTime>
+    </File>
+    <File Include="publicweb/activity.aspx">
+      <publishTime>03/07/2014 17:16:18</publishTime>
+    </File>
+    <File Include="publicweb/complaint.aspx">
+      <publishTime>04/26/2014 11:23:45</publishTime>
+    </File>
+    <File Include="publicweb/createmenu.aspx">
+      <publishTime>03/18/2014 09:31:38</publishTime>
+    </File>
+    <File Include="publicweb/decorationManual.aspx">
+      <publishTime>03/10/2014 11:27:29</publishTime>
+    </File>
+    <File Include="publicweb/DesignCase.aspx">
+      <publishTime>03/09/2014 10:12:50</publishTime>
+    </File>
+    <File Include="publicweb/designcase/xingudian.aspx">
+      <publishTime>03/07/2014 16:36:35</publishTime>
+    </File>
+    <File Include="publicweb/designcase/xingudianimage/bigpic1.jpg">
+      <publishTime>03/07/2014 16:28:15</publishTime>
+    </File>
+    <File Include="publicweb/designcase/xingudianimage/bigpic2.jpg">
+      <publishTime>03/07/2014 16:28:15</publishTime>
+    </File>
+    <File Include="publicweb/designcase/xingudianimage/bigpic3.jpg">
+      <publishTime>03/07/2014 16:28:15</publishTime>
+    </File>
+    <File Include="publicweb/designcase/xingudianimage/bigpic4.jpg">
+      <publishTime>03/07/2014 16:28:15</publishTime>
+    </File>
+    <File Include="publicweb/designcase/xingudianimage/bigpic5.jpg">
+      <publishTime>03/07/2014 16:28:15</publishTime>
+    </File>
+    <File Include="publicweb/designcase/xingudianimage/bigpic7.jpg">
+      <publishTime>03/07/2014 16:28:15</publishTime>
+    </File>
+    <File Include="publicweb/designcase/xingudianimage/sp1.jpg">
+      <publishTime>03/07/2014 16:28:15</publishTime>
+    </File>
+    <File Include="publicweb/designcase/xingudianimage/sp2.jpg">
+      <publishTime>03/07/2014 16:28:15</publishTime>
+    </File>
+    <File Include="publicweb/designcase/xingudianimage/sp3.jpg">
+      <publishTime>03/07/2014 16:28:15</publishTime>
+    </File>
+    <File Include="publicweb/designcase/xingudianimage/sp4.jpg">
+      <publishTime>03/07/2014 16:28:15</publishTime>
+    </File>
+    <File Include="publicweb/designcase/xingudianimage/sp5.jpg">
+      <publishTime>03/07/2014 16:28:15</publishTime>
+    </File>
+    <File Include="publicweb/designcase/xingudianimage/sp6.jpg">
+      <publishTime>03/07/2014 16:28:15</publishTime>
+    </File>
+    <File Include="publicweb/designConcept.aspx">
+      <publishTime>03/09/2014 09:44:00</publishTime>
+    </File>
+    <File Include="publicweb/designer.aspx">
+      <publishTime>03/09/2014 16:05:10</publishTime>
+    </File>
+    <File Include="publicweb/designerDetail.aspx">
+      <publishTime>03/09/2014 16:46:09</publishTime>
+    </File>
+    <File Include="publicweb/designerimage/10192778c5628b-1116154cen.jpg">
+      <publishTime>03/09/2014 12:37:24</publishTime>
+    </File>
+    <File Include="publicweb/designerimage/14290587e83af7-d116154cen.jpg">
+      <publishTime>03/09/2014 12:36:21</publishTime>
+    </File>
+    <File Include="publicweb/designerimage/1627125d1692ff-c104140cen.jpg">
+      <publishTime>03/12/2014 17:21:29</publishTime>
+    </File>
+    <File Include="publicweb/designerimage/952536a0aadb0-d116154cen.jpg">
+      <publishTime>03/09/2014 12:34:51</publishTime>
+    </File>
+    <File Include="publicweb/intruduction.aspx">
+      <publishTime>03/07/2014 17:08:13</publishTime>
+    </File>
+    <File Include="publicweb/m1.aspx">
+      <publishTime>03/10/2014 11:38:15</publishTime>
+    </File>
+    <File Include="publicweb/message.aspx">
+      <publishTime>04/26/2014 01:14:05</publishTime>
+    </File>
+    <File Include="publicweb/MyDecoration.aspx">
+      <publishTime>04/26/2014 00:59:15</publishTime>
+    </File>
+    <File Include="publicweb/myProcessDetail.aspx">
+      <publishTime>04/25/2014 22:51:33</publishTime>
+    </File>
+    <File Include="publicweb/newsimage/activity.jpg">
+      <publishTime>03/07/2014 17:13:24</publishTime>
+    </File>
+    <File Include="publicweb/process.aspx">
+      <publishTime>03/07/2014 17:38:10</publishTime>
+    </File>
+    <File Include="publicweb/receiveMessage.aspx">
+      <publishTime>03/12/2014 14:11:05</publishTime>
+    </File>
+    <File Include="publicweb/Register.aspx">
+      <publishTime>03/07/2014 13:45:41</publishTime>
+    </File>
+    <File Include="publicweb/web.aspx">
+      <publishTime>03/10/2014 12:30:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>03/06/2014 14:38:51</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>03/06/2014 14:38:51</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>03/06/2014 14:38:51</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/25/2014 22:46:20</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

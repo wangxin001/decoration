@@ -1,0 +1,82 @@
+﻿{
+	"button": [
+		{
+			"name": "设计风格", 
+			"sub_button": [
+				{
+					"type": "view", 
+					"name": "公司介绍", 
+					"url": "http://test.shuzhengtech.com/publicweb/intruduction.aspx"
+				}, 
+				{
+					"type": "view", 
+					"name": "家装流程", 
+					"url": "http://test.shuzhengtech.com/publicweb/web.aspx"
+				}, 
+				{
+					"type": "click", 
+					"name": "近期活动", 
+					"key": "activity"
+				}, 
+				{
+					"type": "view", 
+					"name": "人气设计师", 
+					"url": "http://test.shuzhengtech.com/publicweb/designer.aspx"
+				}, 
+				{
+					"type": "view", 
+					"name": "设计案例", 
+					"url": "http://test.shuzhengtech.com/publicweb/DesignCase.aspx"
+				}
+			]
+		}, 
+		{
+			"name": "我的家装", 
+			"sub_button": [
+				{
+					"type": "click", 
+					"name": "业主注册", 
+					"key": "register"
+				}, 
+				{
+					"type": "view", 
+					"name": "家装教程", 
+					"url": "http://test.shuzhengtech.com/publicweb/decorationManual.aspx"
+				}, 
+				{
+					"type": "click", 
+					"name": "评论我的家装", 
+					"key": "commentmydecoration"
+				}
+				, 
+				{
+					"type": "click", 
+					"name": "查看我的家装", 
+					"key": "currentprocess"
+				}
+				, 
+				{
+					"type": "click", 
+					"name": "当前装修进度", 
+					"key": "mydecoration"
+				}
+			]
+		}, 
+		{
+			"name": "订单与投诉", 
+			"sub_button": [
+				{
+					"type": "click", 
+					"name": "我要保修", 
+					"key": "repair"
+				}, 				
+				{
+					"type": "click", 
+					"name": "我要投诉", 
+					"key": "complain"
+				}
+				
+			]
+		}
+	]
+}

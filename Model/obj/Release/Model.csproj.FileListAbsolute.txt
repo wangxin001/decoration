@@ -1,0 +1,5 @@
+I:\decoration\Model\bin\Release\Model.dll
+I:\decoration\Model\bin\Release\Model.pdb
+I:\decoration\Model\obj\Release\Model.dll
+I:\decoration\Model\obj\Release\Model.pdb
+I:\decoration\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
