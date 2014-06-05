@@ -31,8 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LitJson">
-      <HintPath>E:\王新\jiageWXVer2\Bin\LitJson.dll</HintPath>
+    <Reference Include="LitJson, Version=0.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\搜狗高速下载\LitJson.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
@@ -50,6 +51,8 @@
     <Compile Include="HttpUtility.cs" />
     <Compile Include="IHandler.cs" />
     <Compile Include="LinkMessage.cs" />
+    <Compile Include="LocationHandler.cs" />
+    <Compile Include="LocationMessage.cs" />
     <Compile Include="MenuManager.cs" />
     <Compile Include="Message.cs" />
     <Compile Include="MessageHandler.cs" />
@@ -69,6 +72,9 @@
       <Project>{9150792b-6f62-4e25-b1c1-2078a512c1ae}</Project>
       <Name>Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LitJson.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

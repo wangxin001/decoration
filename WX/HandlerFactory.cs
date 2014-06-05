@@ -16,7 +16,7 @@ namespace WX
                 case"image":
                     break;
                 case "location":
-                    break;
+                    return new LocationHandler(requestXml);
                 case "link":
                     break;
                 case "event":

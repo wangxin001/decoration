@@ -58,7 +58,11 @@ namespace WX
         /// <summary>
         /// 投诉
         /// </summary>
-        complain=3
+        complain=3,
+         /// <summary>
+         /// 用户地里位置
+         /// </summary>
+        myLocation=4
 
     }
 }
